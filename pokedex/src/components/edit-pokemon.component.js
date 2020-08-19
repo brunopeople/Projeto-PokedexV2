@@ -6,6 +6,6 @@ export default class EditPokemon extends Component{
             <div>
                 <p>React Edit Pokemon Component</p>
             </div>
-        )
+        );
     }
 }
