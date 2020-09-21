@@ -2,9 +2,11 @@ const http = require('http'); // chamando a constante http e carregando o módul
 
 //criando um servidor local com a variável http, a variável instanciada chama o método para criar servidor 
 // com métodos que para cada requisição que este servidor tiver ele tem que dá uma resposta.
-let http = http.createServer((req, res) => {
+let server = http.createServer((req, res) => {
     console.log('URL', req.url);
     console.log('METHOD', req.method);
+
+    res.end('OK');
 });
 
 
