@@ -13,11 +13,7 @@ module.exports = function(app){
         });
     });
 
-    app.get('/admin', (res, req) => {
-        res.statusCode = 200;
-        res.setHeader('Content-Type', 'application/json');
-        res.json({
-            pokemons:[]
+    app.post('/pokemons', (res, req) => {
+        res.json(req.body);
         });
-    });
 };
