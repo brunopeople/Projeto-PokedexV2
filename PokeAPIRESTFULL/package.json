@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/brunopeople/Projeto-PokedexV2#readme",
   "dependencies": {
+    "consign": "^0.1.6",
     "express": "^4.17.1"
   }
 }
