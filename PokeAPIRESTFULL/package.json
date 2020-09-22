@@ -1,0 +1,25 @@
+{
+  "name": "pokeapi",
+  "version": "1.0.0",
+  "description": "api restfull que irá guardar informações sobre pokemons e será usada para um pokedex CRUD",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunopeople/Projeto-PokedexV2.git"
+  },
+  "keywords": [
+    "pokemons"
+  ],
+  "author": "Bruno Pessoa Nunes de Melo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brunopeople/Projeto-PokedexV2/issues"
+  },
+  "homepage": "https://github.com/brunopeople/Projeto-PokedexV2#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
